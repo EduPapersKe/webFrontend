@@ -25,10 +25,10 @@ export default function App() {
             <MDBNavbar expand='lg' light bgColor='light'>
                 <MDBContainer fluid className='d-flex justify-content-space-between'>
                     <MDBNavbarBrand href='#'>EDUPAPERS</MDBNavbarBrand>
-                    <MDBNavbarLink className='nav-icon mx-2' href='#'>
+                    <MDBNavbarLink className='nav-icon mx-3' href='#'>
                         <MDBIcon icon='user-alt' />
                     </MDBNavbarLink>
-                    <MDBNavbarLink className='nav-icon mx-2' href='#'>
+                    <MDBNavbarLink className='nav-icon mx-4' href='#'>
                         <MDBIcon fas icon='star' />
                     </MDBNavbarLink>
                     <MDBNavbarToggler
@@ -69,15 +69,15 @@ export default function App() {
                 </MDBContainer>
             </MDBNavbar>
             <div className='header p-5 text-center bg-dark'>
-                <h1 className='mb-3'>welcome to EDUPAPERS</h1>
-                <h4 className='mb-3'>Your one stop shop for free notes and past papers</h4>
-                <p>
+                <h1 className='headerinto mb-3'>EDUPAPERS</h1>
+                <h4 className='headerspan mb-3'>Your one stop shop for free notes and past papers</h4>
+                <p className='headerinfo'>
                     Welcome to Edu Papers – your ultimate hub for acing school without the stress!
                     Whether you’re a curious primary schooler, a high school hero, or a college champ,
                     we’ve got you covered with free notes, test papers, and more. Dive in, explore,
                     and conquer your studies like a pro – because learning should be a breeze, not a burden!
                 </p>
-                <a className='btn btn-danger' href='' role='button'>
+                <a className='uploadbtn btn btn-danger' href='' role='button'>
                     ulpoad your notes
                 </a>
             </div>
