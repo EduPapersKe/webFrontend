@@ -1,3 +1,11 @@
+.text-dark {
+  color: black;
+}
+
+.author {
+  font-family: 'Quicksand';
+}
+
 .App {
   text-align: center;
 
@@ -56,6 +64,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.headerinfo {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.headerintro {
+  font-family: 'Quicksand';
+}
+
+.headerspan {
+  font-family: 'Roboto';
+}
+
+.uploadbtn {
+  cursor: cell;
+}
+
+.card-top {
+  background: burlywood;
+  color: darkslategrey;
+  font-family: 'FontAwesome';
+}
+
+.favoriteicon {
+  position: absolute;
+  left: 10%;
+}
+
+.papertitle {
+  font-family: 'Ubuntu';
+}
+
+.starcount {
+  margin-top: '10px';
+  font-size: '15px';
+  color: chartreuse;
+  font-family: 'FontAwesome';
+
 }
 
 .footer {
